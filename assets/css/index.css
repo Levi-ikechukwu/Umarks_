@@ -34,7 +34,7 @@ header {
     padding-top: 10px;
     /* align-items: center; */
     justify-content: center;
-    background-color: #FBFCF8;
+    background-color: #d6ee8e;
     position: sticky;
     z-index: 30;
     top: 0;
@@ -49,19 +49,20 @@ header .head {
 }
 
 header .head .logo img {
-    width: 70%;
+    width: 100%;
     /* height: 70px; */
 }
 
 header .head .logo {
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 25%;
 }
 
 header .head .menu .bx {
     display: none;
 }
+
 header .head .nav nav {
     width: 100%;
     margin: auto;
@@ -72,7 +73,7 @@ header .head .nav nav {
 header .head .nav nav ul {
     display: flex;
     list-style-type: none;
-    
+    width: 50%;
 }
 
 header .head .nav nav ul li a {
@@ -88,15 +89,23 @@ header .head .nav nav ul li a:hover {
     transition: ease-in 0.2s;
     color: #787878;
 }
+header .head .nav nav  .call{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: end;
+}
 
-header .head .nav nav  .call {
-    margin-left: 125px;
+header .head .nav nav  .call a{
+   
     font-weight: normal;
     border-radius: 50px;
     padding: 2px 25px;
     border: 1px solid #020181;
+    color: #020181;
     text-decoration: none;
     font-family: 'poppins', sans-serif;
+   
 }
 
 header .head .nav nav   .call:hover {
@@ -117,7 +126,7 @@ header .head #nav-overlay {
 .hero .container {
     width: 88%;
     justify-self: center;
-    padding-top: 180px;
+    padding-top: 120px;
     padding-bottom: 45px;
     gap: 1%;
     display: flex;
@@ -187,7 +196,6 @@ display: none;
 }
 
 .hero .container .left .call-button {
-    width: 30%;
     margin-top: 30px;
 }
 
@@ -201,6 +209,9 @@ display: none;
     color: #FBFCF8;
     font-weight: bold;
     font-family: 'poppins', sans-serif;
+}
+.hero .container .left .txt-mobile2{
+    display: none;
 }
 
 .hero .container .left .call:hover {
@@ -1334,10 +1345,10 @@ display: none;
     }
     .hero {
         position: relative;
-        top: -20px;
+        top: -5px;
         padding-top: 0px;
-        /* background-color: #F3F7FB; */
-        background-color: #FBFCF8;
+        width: 90%;
+        margin: auto;
       
     }
     .hero .container {
@@ -1353,7 +1364,6 @@ display: none;
    {
        
         display: none;
-        
     }
     .hero .container .left .txt-mobile2 {
         display: flex;
@@ -1377,6 +1387,10 @@ display: none;
         line-height: 47px;
         font-family: "poppins", sans-serif;
         text-align: center;
+    }
+    .hero .container .call-button{
+        background-color: red;
+        width:100%;
     }
      .hero .container .right {
        display: none;
