@@ -23,7 +23,7 @@ git push
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    /* overflow-y: hidden;  */
+    /* overflow-x: hidden;  */
     scroll-behavior: smooth;
 }
 
@@ -126,6 +126,7 @@ header .head #nav-overlay {
 .hero {
     width: 100%;
     background-color: #FBFCF8;
+    overflow: hidden;
 }
 
 .hero .container {
