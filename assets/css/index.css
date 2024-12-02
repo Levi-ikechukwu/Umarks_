@@ -38,6 +38,7 @@ header {
     position: sticky;
     z-index: 30;
     top: 0;
+    overflow: hidden;
 }
 
 header .head {
@@ -243,6 +244,7 @@ display: none;
 .breaker {
     width: 100%;
     background-color: #FBFCF8;
+    overflow: hidden;
 }
 
 .breaker h1 {
