@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <!-- SWIPERJS CSS FILE -->
-    <link rel="stylesheet" href="/assets/css/swiper-bundle.css">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
 
     <link rel="icon" type="image/" href="/assets/images/favicon/logo.jpg" />
 
     <!-- AOS CSS FILE -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
 
     <!-- BOXICONS CSS FILE -->
     <link rel="stylesheet" href="/assets/lib/boxicons-2.1.4/css/boxicons.min.css">
@@ -51,6 +53,7 @@
      ::-webkit-scrollbar-thumb:hover {
         background: #020181;
     }
+
 </style>
 
 <body>
@@ -219,41 +222,42 @@
     <!-- SWIPER -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="row1">
-                    <div class="img">
-                        <div class="shadow"></div>
+          <div class="swiper-slide">
+            <div class="row1" >
+                <div class="img"><div class="shadow"></div></div>
+
+                <div class="txt">
+                    <div class="txt1">
+                        <h4>Development</h4>
                     </div>
 
-                    <div class="txt">
-                        <div class="txt1">
-                            <h4>Development</h4>
-                        </div>
-
-                        <div class="txt2">
-                            <p>Harness the power of the sun and embrace clean, renewable energy with our solutions.</p>
-                        </div>
+                    <div class="txt2">
+                        <p>Harness the power of the sun 
+                             and embrace clean, renewable 
+                             energy with our solutions.</p>
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="row1">
-                    <div class="img img2">
-                        <div class="shadow"></div>
-                    </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row1"  >
+                    <div class="img img2"> <div class="shadow"></div></div>
                     <div class="txt">
                         <div class="txt1">
                             <h4>Security</h4>
                         </div>
                         <div class="txt2">
-                            <p>Stay connected with high quality cable services that deliver reliable and fast internet connection</p>
+                            <p>Stay connected with high 
+                            quality cable services that 
+                           deliver reliable and fast
+                            internet connection</p>
                         </div>
                     </div>
-
+               
                 </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="row1">
+          </div>
+          <div class="swiper-slide">
+            <div class="row1">
                     <div class="img img3">
                         <div class="shadow"></div>
                     </div>
@@ -263,14 +267,15 @@
                             <h4>Innovation</h4>
                         </div>
                         <div class="txt2">
-                            <p>From fast broadband to fiber optic connections we'll help you find thhe internet service provider </p>
+                            <p>From fast broadband to fiber  optic connections we'll help 
+                             you find thhe internet service provider </p>
                         </div>
                     </div>
-
+                    
                 </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="row1">
+          </div>
+          <div class="swiper-slide">
+            <div class="row1">
                     <div class="img img4">
                         <div class="shadow"></div>
                     </div>
@@ -279,19 +284,22 @@
                             <h4>Finance</h4>
                         </div>
                         <div class="txt2">
-                            <p>Discover cost effective and feature rich phone servicesthat keep you connected to your loved ones</p>
+                            <p>Discover cost effective and 
+                                 feature rich phone servicesthat keep you connected to 
+                                 your loved ones</p>
                         </div>
                     </div>
-
+                    
                 </div>
-            </div>
-
-        </div>
-        <!-- <div class="swiper-button-next"></div>
+          </div>
+        
+         </div>
+         <!-- <div class="swiper-button-next"></div>
              <div class="swiper-button-prev"></div> -->
-        <div class="swiper-pagination pg"></div>
-    </div>
+            <div class="swiper-pagination pg"></div>
+      </div>
 
+    
     <!-- WHY CHOOSE US SECTION -->
 
     <section class="hero3">
@@ -519,36 +527,35 @@
         <h1>INTEGRITY</h1>
     </div>
 
+     
     <!-- FOOTER SECTION -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- SWIPER JS FILE -->
-    <script src="/assets/js/swiper-bundle.min.js"></script>
-
+    <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 30,
-            centeredSlides: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: {
+          enabled: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
     </script>
-
+  
+   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/assets/script/script.js"></script>
-    <script src="/assets/lib/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    
+   
 </body>
 
 </html>
