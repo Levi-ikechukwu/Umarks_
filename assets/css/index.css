@@ -46,8 +46,8 @@ header .head {
     color: #FBFCF8;
 }
 
-header .head .logo img {
-    width: 100%;
+header .head .logo {
+    width: 10%;
     /* height: 70px; */
 }
 
@@ -1183,7 +1183,7 @@ display: none;
     header .head .menu .bx {
         display: flex;
         font-size: 35px;
-        padding-right: 15px;
+        padding-right: 0px;
     }
     /* header .head .menu {
         display: block;
@@ -1351,7 +1351,7 @@ display: none;
     }
     header .head .logo-mobile{
         display: flex;
-        width: 40%;
+        width: 60%;
     }
    
     header .head .logo-mobile img {
