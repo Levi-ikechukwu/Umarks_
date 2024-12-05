@@ -139,6 +139,7 @@ header .head #nav-overlay {
    
     flex-wrap: wrap;
 }
+
 header .head .logo-mobile{
 display: none;
 }
