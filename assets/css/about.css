@@ -26,8 +26,6 @@ git push
     /* overflow-y: hidden;  */
     scroll-behavior: smooth;
 }
-
-
 .vision {
     width: 100%;
     background-image: url(../images/virtual7.jpg);
