@@ -831,6 +831,7 @@ display: none;
     width: 100%;
     display: none;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .mySwiper2 .swiper-wrapper .swiper-slide {
@@ -859,6 +860,7 @@ display: none;
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 .mySwiper2 .swiper-wrapper .swiper-slide .box:hover {
     transition: ease-in 0.2s;
@@ -911,7 +913,7 @@ display: none;
     color: #000;
 }
 
-.mySwiper2 .swiper-wrapper .swiper-slide.box p {
+.mySwiper2 .swiper-wrapper .swiper-slide .box p {
     font-family: 'poppins', sans-serif;
     text-align: center;
     color: #213B52;
@@ -949,6 +951,7 @@ display: none;
     padding-top: 40px;
     padding-bottom: 10px;
     overflow: hidden;
+    margin-top: 5px;
 }
 
 .footer .container {
@@ -1481,7 +1484,6 @@ display: none;
         font-size: 15px;
     }
     .hero3 .container .c1 {
-        margin-bottom: 3px;
         padding: 22px;
     }
     .hero3 .container .c1 .h11 h1 {
@@ -1496,6 +1498,7 @@ display: none;
     .hero3 .container .c11 {
         background-color: transparent;
         box-shadow: none;
+        height: 170px;
     }
     .hero4 .container {
         margin: auto;
