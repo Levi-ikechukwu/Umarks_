@@ -37,7 +37,9 @@ header {
     top: 0;
     overflow: hidden;
 }
-
+.teammobile{
+    display: none;
+}
 header .head {
     display: flex;
     /* justify-content: space-between; */
@@ -403,6 +405,9 @@ display: none;
     color: #020181;
     text-align: center;
     line-height: 30px;
+}
+.mySwiper3{
+    display: none;
 }
 .mySwiper1 {
     width: 86%;
@@ -1360,6 +1365,12 @@ display: none;
     z-index: 30;
     top: 0;
     bottom: 0;
+}
+.mySwiper3{
+    display: block;
+}
+.team{
+    display: none;
 }
     header .head {
         width: 90%;
