@@ -406,9 +406,7 @@ display: none;
     text-align: center;
     line-height: 30px;
 }
-.mySwiper3{
-    display: none;
-}
+
 .mySwiper1 {
     width: 86%;
     display: none;
@@ -469,6 +467,16 @@ display: none;
     position: relative;
     bottom: 0px;
     height: 35px;
+}
+.mySwiper3 .swiper-pagination {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    height: 55px;
+    color: #213B52;
 }
 .mySwiper1 .swiper-wrapper .swiper-slide .row1 .txt .txt1 h4 {
     color: white;
@@ -946,6 +954,7 @@ display: none;
     color: red;
 }
 
+
 /* FOOTER SECTION */
 /* FOOTER SECTION */
 
@@ -1093,6 +1102,7 @@ display: none;
         z-index: 30;
         top: 0;
     }
+    
     header .head {
         display: flex;
         width: 85%;
@@ -1142,7 +1152,7 @@ display: none;
     header .head #nav-overlay {
         display: none;
     }
-   
+  
 }
 
 
@@ -1200,13 +1210,12 @@ display: none;
         display: none;
     }
     header .head .menu .bx {
-        display: flex;
+        display: flex !important;
         font-size: 35px;
         padding-right: 0px;
     }
-    /* header .head .menu {
-        display: block;
-    } */
+    
+   
     .hero {
         margin-top: 20px;
         /* background-image: linear-gradient(#F3F7FB, white); */
@@ -1221,6 +1230,9 @@ display: none;
     .mySwiper2{
         display: block;
     }
+  
+   
+    
     .expertise {
         margin-top: 25px;
         display: block;
@@ -1228,6 +1240,7 @@ display: none;
     .expertise .container {
         width: 90%;
     }
+ 
     .expertise .container .txt11 {
         font-size: 40px;
     }
@@ -1342,7 +1355,15 @@ display: none;
     .hero5 .container .head h1 {
         font-size: 25px;
     }
-    
+    .mySwiper3 {
+        display: block !important;
+    }
+    .container{
+        display: block !important;
+    }
+    .team{
+        display: none;
+    }
 }
 
 
@@ -1366,12 +1387,8 @@ display: none;
     top: 0;
     bottom: 0;
 }
-.mySwiper3{
-    display: block;
-}
-.team{
-    display: none;
-}
+
+
     header .head {
         width: 90%;
         display: flex;
@@ -1570,10 +1587,14 @@ display: none;
     .services .container .main .div2 {
         display: none;
     }
-
+    .mySwiper3 .swiper-wrapper .swiper-slide .user img {
+        height: 400px;
+        
+    }
     
     .footer {
         width: 100%;
+        margin-top: 30px;
     }
     .footer .txt1 {
         width: 90%;
@@ -1629,4 +1650,12 @@ display: none;
         font-size: 14px;
         font-weight: 200;
     }
+    .team{
+        display: none;
+    }
+    .mySwiper3 .swiper-wrapper .swiper-slide .user img {
+        height: 400px;
+
+    }
+   
 }

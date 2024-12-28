@@ -120,6 +120,7 @@ git push
 .team {
     width: 100%;
     background-color: #FBFCF8;
+    display: block;
 }
 
 .team .container {
@@ -177,12 +178,10 @@ git push
     /* text-align: center; */
 }
 
-.mySwiper3 {
-    width: 100%;
-    height: 100%;
+header .head .menu .bx {
     display: none;
-  }
-
+    height: 50px;
+}
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -205,44 +204,52 @@ git push
     color: #FBFCF8;
     background-color: #020180;
     font-family: 'poppins', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     padding-left: 30px;
     text-align: center;
 }
-
-.swiper .swiper-wrapper .swiper-slide .user {
-    /* border-radius: 20px; */
-    width: 90%;
-    margin:auto;
+.container h2 {
+    width: 80%;
+    color: #FBFCF8;
+    background-color: #020180;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
     
+    margin: auto;
 }
-.mySwiper3{
-    display: none;
+.mySwiper3 {
+    display: none !important;
+    width: 90%;
+    margin-top: 20px;
 }
 
-.swiper .swiper-wrapper .swiper-slide .user img {
-    height: 400px;
+.mySwiper3 .swiper-wrapper .swiper-slide .user img {
+    height: 600px;
     width: 100%;
     border-radius: 20px;
     object-fit: cover;
+    object-position: top;
 }
-.swiper .swiper-wrapper .swiper-slide .user h3 {
+
+.mySwiper3 .swiper-wrapper .swiper-slide .user h3 {
     background-color: transparent;
     margin: auto;
     color: rgb(82, 82, 143);
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     margin-right: 5px;
     padding-left: 5px;
     /* text-align: center; */
 }
 
-.swiper .swiper-wrapper .swiper-slide .user h4 {
+.mySwiper3 .swiper-wrapper .swiper-slide .user h4 {
     background-color: transparent;
     margin: auto;
     color: rgb(105, 105, 132);
-    font-size: 13px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-align: auto;
     padding-left: 5px;
@@ -377,7 +384,11 @@ git push
     margin-top: 10px;
 }
 
-
-@media only screen and (max-width: 450px){
-
+header .head .menu .bx {
+    display: flex;
+}
+@media (max-width: 768px) {
+    .mySwiper3 {
+        display: block;
+    }
 }
