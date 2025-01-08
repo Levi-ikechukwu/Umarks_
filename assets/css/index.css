@@ -47,6 +47,9 @@ header .head {
     align-items: center;
     color: #FBFCF8;
 }
+header .head .logo-mobile{
+    display: none;
+}
 
 header .head .logo {
     width: 10%;
@@ -1686,13 +1689,7 @@ display: none;
         font-size: 19px;
        
     }
-    .vision {
-        width: 100%;
-        background-image: url(../images/virtual7.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+
     .contact form {
       
          width: 90%;
