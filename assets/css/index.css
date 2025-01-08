@@ -1700,4 +1700,15 @@ display: none;
          width: 90%;
        
      }
+     .info .container {
+        width: 100%;
+    
+    }
+    .info .container .tab {
+      
+        margin: auto;
+        margin-bottom: 15px;
+        width: 90%;
+
+    }
 }

@@ -281,21 +281,28 @@ git push
     .info {
         width: 100%;
         background-color: #FBFCF8;
+  
     }
     
     .info .container {
         width: 80%;
         display: flex;
+        flex-wrap: wrap;
         margin: auto;
-        padding-bottom: 50px;
-        gap: 40px;
+        padding-bottom: 30px;
+        gap: 2%;
+   
     }
     
     .info .container .tab {
         background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
         border: 5px;
-        padding: 10px 10px;
-        width: 30%;
+        padding:50px 10px;
+        width: 32%;
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -318,7 +325,7 @@ git push
     .info .container .tab .bi-geo-alt {
         fill: #020180;
         margin-top: 10px;
-        margin-left: 135px;
+        padding-bottom: 4px;
         width: 30px;
         height: 30px;
     }
@@ -326,7 +333,7 @@ git push
     .info .container .tab .bi-telephone {
         fill: #020180;
         margin-top: 10px;
-        margin-left: 135px;
+        padding-bottom: 4px;
         width: 30px;
         height: 30px;
     }
@@ -334,7 +341,7 @@ git push
     .info .container .tab .bi-envelope-check {
         fill: #020180;
         margin-top: 10px;
-        margin-left: 132px;
+       padding-bottom: 4px;
         width: 30px;
         height: 30px;
     }
