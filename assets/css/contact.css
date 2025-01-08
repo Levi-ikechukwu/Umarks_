@@ -289,7 +289,7 @@ git push
         display: flex;
         flex-wrap: wrap;
         margin: auto;
-        padding-bottom: 30px;
+        padding-bottom:10px;
         gap: 2%;
    
     }
@@ -301,10 +301,10 @@ git push
         display: flex;
         align-items: center;
         border: 5px;
-        padding:50px 10px;
+        padding: 60px 10px;
         width: 32%;
         border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add black background shadow */
     }
     
     .info .container .tab h3 {
@@ -317,6 +317,7 @@ git push
     
     .info .container .tab p {
         text-align: center;
+        padding-bottom: 9px;
         font-family: 'poppins', sans-serif;
         font-size: 14px;
         color: rgb(92, 92, 141);
@@ -324,24 +325,22 @@ git push
     
     .info .container .tab .bi-geo-alt {
         fill: #020180;
-        margin-top: 10px;
-        padding-bottom: 4px;
+        padding-bottom: 9px;
         width: 30px;
         height: 30px;
     }
     
     .info .container .tab .bi-telephone {
         fill: #020180;
-        margin-top: 10px;
-        padding-bottom: 4px;
+      
+        padding-bottom: 9px;
         width: 30px;
         height: 30px;
     }
     
     .info .container .tab .bi-envelope-check {
         fill: #020180;
-        margin-top: 10px;
-       padding-bottom: 4px;
+        padding-bottom: 9px;
         width: 30px;
         height: 30px;
     }
