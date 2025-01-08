@@ -139,6 +139,7 @@ git push
         font-size: 40px;
         font-family: 'poppins', sans-serif;
         font-weight: 500;
+        line-height: 10px;
     }
     
     .vision .content p {
