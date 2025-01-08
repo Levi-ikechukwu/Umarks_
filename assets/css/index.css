@@ -1694,7 +1694,50 @@ display: none;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-    
-       
     }
+    .contact {
+        width: 100%;
+        background-color: #FBFCF8;
+        padding-top: 20px;
+        padding-left: 0px;
+        margin: center;
+        padding-bottom: 50px;
+    }
+    .contact form {
+        width: 80%;
+        margin-left: 0px;
+      
+    }
+    .contact form #options {
+        padding-right:10px;
+        padding-left: 10px;
+    }
+    .contact form #name {
+       
+        padding-right: 140px;
+        padding-left: 10px;
+        
+    }
+    .contact form #company {
+        
+        padding-right: 140px;
+        padding-left: 10px;
+    }
+    .contact form #email {
+        padding-right: 140px;
+        padding-left: 10px;
+    }
+    .contact form #subject {
+        padding-right: 140px;
+        padding-left: 10px;
+    }
+    .contact form #message {
+        padding-top: 10px;
+        padding-bottom: 70px;
+        padding-right: 160px;
+        padding-left: 10px;
+        border-radius: 3px;
+        border: 1px solid #999;
+    }
+    
 }
