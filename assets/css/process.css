@@ -166,17 +166,26 @@ header .head #nav-overlay {
     width: 100%;
     background-color: #020180;
 }
-
-.body .container {
+.body .container{
     width: 100%;
     background-color: #FFFFFF;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    padding-top: 80px;
-    position: relative;
+   
+    
+}
+.body .container .container2{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
-.body .container .logo {
+.body .container .container2 .logo{
     /* background-color: #23BDEE; */
     background-color: yellow;
     width: 80px;
@@ -186,10 +195,10 @@ header .head #nav-overlay {
     display: flex;
     justify-self: center;
     justify-content: center;
-    margin-left: 5px;
-    position: absolute;
-    left: 635px;
-    top: 22px;
+    position: relative;
+    top: 20px;
+  
+   
     z-index: 5;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -231,228 +240,6 @@ header .head #nav-overlay {
     padding-bottom: 30px;
 }
 
-.body .container .logo2 {
-    /* background-color: #23BDEE; */
-    background-color: #98ff98;
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    align-items: center;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    margin-left: 5px;
-    position: absolute;
-    left: 635px;
-    top: 260px;
-    z-index: 5;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.body .container .logo2 img {
-    width: 50%;
-}
-
-.body .container .stack2 {
-    width: 50%;
-    background-color: #FFFFFF;
-    justify-self: center;
-    justify-content: center;
-    margin-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: absolute;
-    left: 340px;
-    top: 320px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.body .container .stack2 .txt {
-    padding-top: 10px;
-    font-family: 'poppins', sans-serif;
-    color: #36327D;
-}
-
-.body .container .stack2 .txt h2 {
-    font-size: 16px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    justify-self: center;
-}
-
-.body .container .stack2 .txt p {
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.body .container .logo3 {
-    /* background-color: #23BDEE; */
-    background-color: #28f528;
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    align-items: center;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    margin-left: 5px;
-    position: absolute;
-    left: 635px;
-    top: 485px;
-    z-index: 5;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.body .container .logo3 img {
-    width: 50%;
-}
-
-.body .container .stack3 {
-    width: 50%;
-    background-color: #FFFFFF;
-    justify-self: center;
-    justify-content: center;
-    margin-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: absolute;
-    left: 340px;
-    top: 540px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.body .container .stack3 .txt {
-    padding-top: 10px;
-    font-family: 'poppins', sans-serif;
-    color: #36327D;
-}
-
-.body .container .stack3 .txt h2 {
-    font-size: 16px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    justify-self: center;
-}
-
-.body .container .stack3 .txt p {
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.body .container .logo4 {
-    background-color: #23BDEE;
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    align-items: center;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    margin-left: 5px;
-    position: absolute;
-    left: 635px;
-    top: 710px;
-    z-index: 5;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.body .container .logo4 img {
-    width: 50%;
-}
-
-.body .container .stack4 {
-    width: 50%;
-    background-color: #FFFFFF;
-    justify-self: center;
-    justify-content: center;
-    margin-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: absolute;
-    left: 340px;
-    top: 772px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.body .container .stack4 .txt {
-    padding-top: 10px;
-    font-family: 'poppins', sans-serif;
-    color: #36327D;
-}
-
-.body .container .stack4 .txt h2 {
-    font-size: 16px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    justify-self: center;
-}
-
-.body .container .stack4 .txt p {
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.body .container .logo5 {
-    /* background-color: #23BDEE; */
-    background-color: orange;
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    align-items: center;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    margin-left: 5px;
-    position: absolute;
-    left: 635px;
-    top: 940px;
-    z-index: 5;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.body .container .logo5 img {
-    width: 50%;
-}
-
-.body .container .stack5 {
-    width: 50%;
-    background-color: #FFFFFF;
-    justify-self: center;
-    justify-content: center;
-    margin-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: absolute;
-    left: 340px;
-    top: 1000px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.body .container .stack5 .txt {
-    padding-top: 10px;
-    font-family: 'poppins', sans-serif;
-    color: #36327D;
-}
-
-.body .container .stack5 .txt h2 {
-    font-size: 16px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    justify-self: center;
-}
-
-.body .container .stack5 .txt p {
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    padding-bottom: 30px;
-}
 
 .methodology {
     position: absolute;
@@ -520,8 +307,7 @@ header .head #nav-overlay {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 10px;
-    position: absolute;
-    top: 1650px;
+ 
 }
 
 .footer .container {

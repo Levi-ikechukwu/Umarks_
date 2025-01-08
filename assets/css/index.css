@@ -1744,4 +1744,10 @@ display: none;
         font-size:  9px;
         text-align: center;
     }
+    .body .container .stack {
+        width: 90%;
+        margin-bottom: 10px;
+
+    }
+    
 }
