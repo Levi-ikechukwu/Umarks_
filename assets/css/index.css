@@ -144,6 +144,7 @@ header .head #nav-overlay {
 
 header .head .logo-mobile{
 display: none;
+
 }
 
 .hero .container .left {
@@ -867,17 +868,17 @@ display: none;
     width: 86%;
     height: 370px;
     background-color: #FFFFFF;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add black background shadow */
    
 }
 .mySwiper2 .swiper-wrapper .swiper-slide .box:hover {
     transition: ease-in 0.2s;
-    box-shadow: 0 4px 20px 0 rgba(60, 76, 221, 0.671), 0 6px 10px 0 rgba(30, 96, 218, 0.19);
+   
 }
 
 
@@ -1206,15 +1207,11 @@ display: none;
     header .head .logo {
         width: 50%;
     }
-    header .nav {
+    header .head .nav {
         display: none;
     }
-    header .head .menu .bx {
-        display: flex !important;
-        font-size: 35px;
-        padding-right: 0px;
-    }
-    
+ 
+   
    
     .hero {
         margin-top: 20px;
@@ -1395,17 +1392,22 @@ display: none;
         align-items: center;
         justify-content: space-between;
     }
-    header .head .logo-mobile{
-        display: flex;
-        width: 52%;
-    }
    
+    .hidden {
+        display: none;
+    }
     header .head .logo-mobile img {
+        display: flex;
         align-items: center;
         width: 100%;
     }
     header .head .menu{
         color:  #020181 ;
+    }
+    header .head .menu .bx {
+        display: flex !important;
+        font-size: 35px;
+        padding-right: 0px;
     }
     .hero {
         position: relative;
@@ -1426,6 +1428,11 @@ display: none;
         width: 100%;
         flex-wrap: wrap-reverse;
     }
+    header .head .logo-mobile{
+        display: flex;
+        width: 60%;
+     
+        }
     .hero .container .left .txt
    {
         display: none;
@@ -1657,5 +1664,28 @@ display: none;
         height: 400px;
 
     }
-   
+    .vision {
+       height: 65vh;
+    }
+    .vision .overlay {
+       
+        height: 65vh;
+       
+    }
+    .vision .content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .vision .content h1 {
+        font-size: 40px;
+    }
+    
+    .vision .content p {
+        
+        font-size: 19px;
+       
+    }
 }
