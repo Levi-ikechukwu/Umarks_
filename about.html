@@ -46,13 +46,12 @@
                 <img src="assets/images/logoFFF.png" alt="Umarks Technologies">
             </div>
 
-            <div class="menu" >
-                <i class='bx bx-menu-alt-right' id="menu"></i>
+            <div class="menu" onclick="show()" >
+                <i class='bx bx-menu-alt-right' id="menu" onclick="show()"  ></i>
             </div>
 
             <div class="nav">
                 <nav>
-
                     <div class="logo">
                         <img src="assets/images/logoFFF.png" alt="Umarks Technologies">
                     </div>
@@ -73,12 +72,13 @@
 
             </div>
 
-            <div id="nav-overlay">
-                <i class='bx bx-x' id="closeicon"></i>
+            <div id="nav-overlay" class="nav-mobile">
+                <i class='bx bx-x' class="close" onclick="hide()"        id="closeicon"></i>
                 <ul>
                     <li><a href="/index.html">Home</a></li>
                     <li><a href="/services.html">Services</a></li>
                     <li><a href="about.html">About Us</a></li>
+                    <li><a href="/process.html">Our Process</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
@@ -297,5 +297,5 @@
         });
       </script>
 
-      <script src="/assets/script/script.jss"></script>
+      <script src="/assets/script/script.js"></script>
 </body>
