@@ -20,146 +20,52 @@ git push
 */
 
 
-.services {
-    width: 100%;
-    background-color: #FBFCF8;
-    padding-top: 160px;
-    padding-bottom: 80px;
-}
-
-.services .container {
-    width: 80%;
-    display: flex;
-    justify-self: center;
-    background-color: #FBFCF8;
-    gap: 15px;
-}
-
-.services h2 {
-    text-align: center;
-    color: #020181;
-    font-family: 'poppins', sans-serif;
-    font-size: 16px;
-    margin-bottom: 25px;
-}
-
-.services .container .box {
-    width: 22%;
-    height: 350px;
-    border-bottom: 5px solid #0b94b6d2;
-    /* background-color: #FFFFFF; */
-    background-color: transparent;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: auto;
-}
-
-.services .container .box:hover {
-    box-shadow: 0 4px 20px 0 rgba(60, 76, 221, 0.671), 0 6px 10px 0 rgba(30, 96, 218, 0.19);
-}
-
-
-/* .services .container .box .fa-globe {
-    padding-top: 20px;
-    padding-left: 90px;
-    text-align: justify;
-    font-size: 40px;
-    color: #020180;
-} */
-
-.services .container .box .bi-globe2 {
-    fill: #020180;
-    margin-top: 15px;
-    margin-left: 95px;
-    width: 50px;
-    height: 50px;
-}
-
-.services .container .box .bi-phone {
-    fill: #020180;
-    margin-top: 15px;
-    margin-left: 95px;
-    width: 50px;
-    height: 50px;
-}
-
-.services .container .box .bi-display {
-    fill: #020180;
-    margin-top: 15px;
-    margin-left: 95px;
-    width: 50px;
-    height: 50px;
-}
-
-.services .container .box .bi-briefcase {
-    fill: #020180;
-    margin-top: 15px;
-    margin-left: 95px;
-    width: 50px;
-    height: 50px;
-}
-
-.services .container .box h3 {
-    font-family: 'poppins', sans-serif;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    text-align: center;
-    /* color: #020180; */
-    /* color: rgb(252, 161, 127); */
-    color: #000;
-}
-
-.services .container .box p {
-    font-family: 'poppins', sans-serif;
-    text-align: center;
-    color: #36327D;
-    font-size: 14px;
-    padding-left: 4px;
-    padding-right: 4px;
-}
 
 .build {
     width: 100%;
-    /* position: relative;
-    top: 110px; */
     background-color: #FBFCF8;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 .build h1 {
     text-align: center;
     color: #020181;
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .build .container {
-    width: 75%;
+    width: 90%;
     /* height: 100vh; */
     margin: auto;
     justify-content: center;
     display: flex;
     gap: 5%;
+    flex-wrap: wrap;
 }
 
 .build .container .left-container {
-    width: 55%;
+    width: 45%;
     margin-top: 20px;
+    
 }
 
 .build .container .left-container img {
     border-radius: 20px;
-    width: 400px;
+    width: 420px;
     height: 300px;
+    object-fit: cover;
 }
 
 .build .container .right-container {
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 1%;
+    position: relative;
+    top: 30px;
 }
 
 .build .container .left-container h3 {
@@ -191,8 +97,8 @@ git push
 }
 
 .build .container .right-container .d1 {
-    width: 45%;
-    margin-bottom: 40px;
+    width: 49%;
+  
 }
 
 .build .container .right-container .d1 .logo {
@@ -220,7 +126,7 @@ git push
 
 .build .container .right-container .d1 .txt h2 {
     font-size: 16px;
-    padding-bottom: 20px;
+    padding-bottom:0px;
     justify-self: center;
 }
 
@@ -234,8 +140,7 @@ git push
 }
 
 .build .container .right-container .d2 {
-    width: 45%;
-    padding-left: 20px;
+    width: 49%;
 }
 
 .build .container .right-container .d2 .logo {
@@ -263,12 +168,13 @@ git push
 
 .build .container .right-container .d2 .txt h2 {
     font-size: 16px;
-    padding-bottom: 20px;
+    padding-bottom:0px;
     justify-self: center;
 }
 
 .build .container .right-container .d3 {
-    width: 45%;
+    width: 49%;
+ 
 }
 
 .build .container .right-container .d3 .logo {
@@ -296,13 +202,13 @@ git push
 
 .build .container .right-container .d3 .txt h2 {
     font-size: 16px;
-    padding-bottom: 20px;
+    padding-bottom:0px;
     justify-self: center;
 }
 
 .build .container .right-container .d4 {
-    width: 45%;
-    padding-left: 30px;
+    width: 49%;
+    padding-left: 20px;
 }
 
 .build .container .right-container .d4 .logo {
@@ -329,7 +235,7 @@ git push
 
 .build .container .right-container .d4 .txt h2 {
     font-size: 14px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     justify-self: center;
 }
 
@@ -344,32 +250,29 @@ git push
     text-align: center;
     color: #020181;
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
-    padding-top: 30px;
-    padding-bottom: 70px;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .collaborate .container {
-    width: 70%;
+    width:90%;
     margin: auto;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
-    background-color: #FBFCF8;
+    gap: 1%;
+
+   
 }
 
 .collaborate .container .product {
-    width: 35%;
+    width: 24%;
     background-color: #FFFFFF;
     padding: 30px 20px;
     border-radius: 8px;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 12px 20px 30px 15px rgba(0, 0, 0, 0.13);
-    /* position: relative;
-    left: 2px;
-    top: 30px; */
-    opacity: 0.8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add background shadow */
+ 
 }
 
 .collaborate .container .product .icon {
@@ -389,28 +292,29 @@ git push
     font-family: 'poppins', sans-serif;
     color: #36327D;
     justify-self: center;
+    font-size: 17px;
 }
 
 .collaborate .container .product p {
     color: #585757;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 20px;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
 }
 
 .collaborate .container .co-found {
-    width: 35%;
+    width: 24%;
     background-color: #FFFFFF;
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 60px;
+    padding: 30px 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 12px 20px 30px 15px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add background shadow */
+ 
     position: relative;
-    left: 13px;
-    top: -10px;
+  
+   
     opacity: 1;
 }
 
@@ -431,23 +335,25 @@ git push
     font-family: 'poppins', sans-serif;
     color: #36327D;
     text-align: center;
+    font-size: 17px;
 }
 
 .collaborate .container .co-found p {
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 20px;
     text-align: justify;
     font-family: 'poppins', sans-serif;
     color: #585757;
+    font-weight: 500;
 }
 
 .collaborate .container .market {
-    width: 35%;
+    width: 24%;
     background-color: #FFFFFF;
     padding: 30px 20px;
     border-radius: 8px;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 12px 20px 30px 15px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add background shadow */
     /* position: absolute;
     left: 3px;
     top: 450px; */
@@ -471,23 +377,26 @@ git push
     font-family: 'poppins', sans-serif;
     color: #36327D;
     text-align: center;
+    font-size: 17px;
 }
 
 .collaborate .container .market p {
     color: #585757;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
+   font-weight: 500;
     text-align: justify;
 }
 
 .collaborate .container .maintain {
-    width: 35%;
+    width: 24%;
     background-color: #FFFFFF;
     padding: 30px 20px;
     border-radius: 8px;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 12px 20px 30px 15px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add background shadow */
+ 
     opacity: 0.7;
     /* position: absolute;
     left: 300px;
@@ -512,14 +421,16 @@ git push
     font-family: 'poppins', sans-serif;
     color: #36327D;
     text-align: center;
+    font-size: 17px;
 }
 
 .collaborate .container .maintain p {
     color: #585757;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
+    font-weight: 500;
 }
 
 
@@ -539,13 +450,13 @@ git push
     text-align: center;
     color: #020181;
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
+    font-size: 26px;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .tools .container {
-    width: 86%;
+    width: 90%;
     margin: auto;
     justify-content: center;
 }
@@ -561,15 +472,16 @@ git push
 
 .tools .container .frontend .image {
     width: 100%;
-    justify-self: center;
+    display: flex;
 }
 
 .tools .container .frontend .image img {
-    width: 110px;
+    width: 100%;
     height: 95px;
+    object-fit: contain;
     /* margin-right: 30px; */
-    margin-left: 30px;
-    margin-bottom: 70px;
+    margin-left: 40px;
+    margin-bottom: 30px;
     justify-self: center;
 }
 
@@ -701,4 +613,27 @@ git push
 
 .footer .last {
     margin-top: 10px;
+}
+.image-scroll {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.image {
+    display: inline-block;
+    animation: scroll 1.5s  linear infinite;
+}
+
+.image img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
