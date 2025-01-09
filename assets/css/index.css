@@ -43,7 +43,7 @@ header {
 header .head {
     display: flex;
     /* justify-content: space-between; */
-    width: 100%;
+    width: 90%;
     align-items: center;
     color: #FBFCF8;
 }
@@ -65,7 +65,12 @@ header .head .logo {
 header .head .menu .bx {
     display: none;
 }
-
+header .head .nav nav .logo{
+    width:20%;
+}
+header .head .nav nav .logo img{
+    width:100%;
+}
 header .head .nav nav {
     width: 100%;
     margin: auto;
@@ -113,7 +118,7 @@ header .head .nav nav  .call a{
     color: #020181;
     text-decoration: none;
     font-family: 'poppins', sans-serif;
-   
+   font-size: 13px;
 }
 
 header .head .nav nav   .call a:hover {
@@ -123,7 +128,6 @@ header .head .nav nav   .call a:hover {
 }
 
 header .head #nav-overlay {
- 
     display: none;
 }
 
@@ -136,7 +140,7 @@ header .head #nav-overlay {
 .hero .container {
     width: 88%;
     justify-self: center;
-    padding-top: 140px;
+    padding-top: 100px;
     padding-bottom: 45px;
     gap: 1%;
     display: flex;
@@ -1160,6 +1164,7 @@ display: none;
   
 }
 
+
 /* TABLET DESIGN */
 
 @media only screen and (max-width: 960px) {
@@ -1172,7 +1177,6 @@ display: none;
         left: 0;
         z-index: 100;
         background-color: #162330;
-        transition:  0.5s ease-in;
     }
     header .head #nav-overlay ul {
         background-color: white;
@@ -1212,13 +1216,45 @@ display: none;
         width: 50%;
     }
     header .head .nav {
-        display: none;
+        display: flex;
     }
  
-   
-   
+    header .head .nav nav ul {
+        display: flex;
+        list-style-type: none;
+        width: 43%;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    header .head .nav nav  .call{
+        display: flex;
+        align-items: center;
+        width: 15%;
+        justify-content: end;
+    }
+    header .head .nav nav  .call a{
+       font-size: 10px;
+       padding: 5px 20px;
+    }
+    header .head .nav nav ul li a {
+        font-size: 14px;
+    }
+    .hero .container {
+        width: 88%;
+        justify-self: center;
+        padding-top: 30px;
+        padding-bottom: 45px;
+        gap: 1%;
+        display: flex;
+        /* position: relative; */
+        background-color: #FBFCF8;
+       
+        flex-wrap: wrap;
+    }
     .hero {
-        margin-top: 20px;
+      
         /* background-image: linear-gradient(#F3F7FB, white); */
         background-color: #FBFCF8;
     }
@@ -1368,8 +1404,10 @@ display: none;
 
 /* MOBILE SMALL VERSION */
 
-@media only screen and (max-width: 450px) {
- 
+@media only screen and (max-width: 700px) {
+    header .head .nav {
+        display: none;
+    }
    header {
     padding-bottom: 5px;
     margin-bottom: 0px;
