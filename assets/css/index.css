@@ -1747,7 +1747,10 @@ display: none;
     }
     .process .container .cont {
         width: 20%;
-        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .process .container .cont .logo {
