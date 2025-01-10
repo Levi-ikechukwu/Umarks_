@@ -140,7 +140,7 @@ header .head #nav-overlay {
 .hero .container {
     width: 88%;
     justify-self: center;
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 45px;
     gap: 1%;
     display: flex;
@@ -730,7 +730,7 @@ display: none;
     display: flex;
    margin: auto;
     background-color: #FBFCF8;
-    gap: 2%;
+    gap: 1%;
     flex-wrap: wrap;
 }
 
@@ -738,18 +738,19 @@ display: none;
     text-align: center;
     color: #020181;
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 25px;
 }
 
 .services .container .box {
-    width: 23%;
+    width: 19%;
     height: 350px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 25px;
 }
 
 .services .container .box:hover {
@@ -808,7 +809,7 @@ display: none;
 
 .services .container .box h3 {
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 15px;
     text-align: center;
@@ -1684,6 +1685,10 @@ display: none;
         height: 400px;
 
     }
+    .services .container .box:hover {
+        transition: ease-in 0.2s;
+        box-shadow: black;
+    }
     .vision {
        height: 60vh;
     }
@@ -1725,9 +1730,13 @@ display: none;
         width: 90%;
 
     }
+    .process{
+        padding-bottom: 60px;
+    }
     .process h2 {
         padding-top:  30px;
         font-weight: 400;
+        font-size: 30px;
     }
     .process .container {
         width: 100%;
@@ -1743,8 +1752,8 @@ display: none;
     
     .process .container .cont .logo {
         background-color: #FFFFFF;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 50px;
         align-items: center;
         display: flex;
@@ -1764,6 +1773,18 @@ display: none;
         width: 90%;
         margin-bottom: 10px;
 
+    }
+    .body .container .container2 .logo{
+        /* background-color: #23BDEE; */
+        background-color: yellow;
+        width: 60px;
+        height: 60px;
+        z-index: 5;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .body .container .logo img {
+        width: 50%;
     }
     
 
@@ -1922,6 +1943,19 @@ text-align: center;
 .tools .container .frontend .image img {
     width: 60%; /* Adjust width for mobile */
     height: 70px; /* Adjust height for mobile */
+}
+   
+.vision .content p {
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+}
+.vision .content h1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 0px;
 }
 @keyframes scroll {
     0% {
